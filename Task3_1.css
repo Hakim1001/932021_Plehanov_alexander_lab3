@@ -1,0 +1,121 @@
+
+body
+   {
+    position: static;
+    margin: 0;
+    background-color: #FFFFFF;
+    font-size: 13px;
+    font-family: Arial, sans-serif; /* Рубленый шрифт */
+    overflow: auto;
+    clear: none;
+   }
+   .content
+   {
+     max-width:100vh;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+   }
+   section.inside
+   {
+  min-height: 91vh;
+  min-width:100%;
+  display: flex;
+   }
+.main
+  {
+clear: both;
+height: 5vh;
+  }
+   .header
+   {
+     min-width: 5vh;
+   height: 5%;
+   min-height:30px;
+   color:white;
+   top:0;
+   left:0;
+   right:0;
+   background-color: green;
+   }
+   .letter {
+    color: red;
+    font-size: 150%;
+    font-family: serif;
+    position: relative;
+    top: 5px;
+   }
+
+.header h1
+{
+      text-align: center ;
+}
+.section ul{
+  text-decoration: underline;
+
+}
+.section li{
+   list-style-type: none;
+     padding-bottom:10px;
+}
+nav.section
+{
+  min-width:150px;
+  color:white;
+  float:left;
+  background-color: red;
+}
+nav.section li:hover {
+  background: green;
+}
+
+nav.section li:active {
+  background-color: green;
+  color: green;
+}
+
+
+::-moz-selection {
+    color:white;
+  background-color: green;
+}
+::selection {
+  color:white;
+  background-color: green;
+}
+a:link {
+  color:white;
+}
+a:visited {
+  color:white;
+}
+#SomeOtherPage:target {
+  color:white;
+  background-color: green;
+}
+#LastPage:target {
+  color:white;
+  background-color: green;
+}
+aside.aside
+{
+  margin-left:30px;
+  float:right;
+}
+aside.aside P:first-letter {
+ font-family: "Times New Roman", Times, serif; /* Гарнитура шрифта первой буквы */
+ font-size: 200%; /* Размер шрифта первого символа */
+ color: red; /* Красный цвет текста */
+}
+.footer{
+color:white;
+min-height:30px;
+font-family: Georgia,serif;
+background-color: black;
+}
+
+.footer p
+{
+  position:absolute;
+  left: 50%;
+}
